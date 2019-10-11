@@ -46,7 +46,6 @@ export class App extends  React.Component{
 					<Link to="/Asharp" className="btn btn-primary button">A&#9839;/B&#9837; Major</Link>
 					<Link to="/B" className="btn btn-primary">B Major</Link>		
 				</div>
-				<p className="col-9"><b>Scale Formula:</b> Major Minor Minor Major Major Minor Diminished</p>
 				<div><br></br></div>
 				<div className="btn-group col-12" role="group" aria-label="Basic example">
 					<Link to="/Am" className="btn btn-secondary button">A Minor</Link>
@@ -62,7 +61,6 @@ export class App extends  React.Component{
 					<Link to="/Gm" className="btn btn-secondary button">G Minor</Link>
 					<Link to="/Gmsharp" className="btn btn-secondary button">G&#9839;/A&#9837; Minor</Link>			
 				</div>
-				<p className="col-9"><b>Scale Formula:</b> Minor Diminished Major Minor Minor Major Major</p>
 				<br></br>
 				<div className="col-9">			
 					<Route exact={true} path="/" component={C}/>
